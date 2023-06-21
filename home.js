@@ -4,7 +4,7 @@ function Home(){
       txtcolor="black"
       header="April's Bank"
       title="Welcome to the bank"
-      text="Please use this site for all your banking needs. Security not guaranteed."
+      text="You can move around using the navigation bar."
       body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}
     />    
   );  
