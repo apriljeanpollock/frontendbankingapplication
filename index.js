@@ -5,7 +5,7 @@ function Spa() {
         <div>
           <hr/>
         </div>
-      <UserContext.Provider value={{users:[{name:'Horowitz',email:'Horowitz@gmail.com',password:'secret',balance:100}]}}>
+      <UserContext.Provider value={{users:[{name:'April',email:'apriljp0007@gmail.com',password:'secret',balance:100}]}}>
         <div className="container" style={{padding: "20px"}}>
           <Route path="/" exact         component={Home} />
           <Route path="/CreateAccount/" component={CreateAccount} />
